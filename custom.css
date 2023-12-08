@@ -1,0 +1,55 @@
+body {
+  background-color: #22092c;
+  }
+  .color-overlay {
+    background-color: rgba(0, 0, 0, 0.4);
+    min-height: 60vh;
+  }
+  .h1{
+    color: black;
+  }
+  .singleCol {
+    max-width: 750px;
+  }
+  .mytext{
+    color: white;
+  }
+  .my-2 {
+    color: #22092c;
+    font-style: italic;
+    letter-spacing: 0.1em;
+  }
+  .container{
+    color: white;
+  }
+  .card-body{
+    color: #22092c;
+  }
+  .navbar-light, .navbar-toggler {
+    color: orangered;
+    border-color: orangered;
+  }
+  
+  .navbar-light, .navbar-toggler:hover {
+    color: pink;
+    border-color: purple;
+  }
+  footer {
+    background-color: #22092c;
+    color: white;
+    height: 3px;
+  }
+  
+  footer a {
+    color: white;
+  }
+  
+  footer a:hover {
+    color: #dfdfdf;
+  }
+  
+  @media (max-width: 767.98px) {
+    .color-overlay {
+      min-height: 30vh;
+    }
+  }
